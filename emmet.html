@@ -1,8 +1,60 @@
 <!DOCTYPE html>
 <html>
-    
+
 <head>
     <title>HTML 시멘틱 태그</title>
+    <style>
+        /* 내부스타일*/
+
+        /* 전체 선택자 : html 요소 전체에 적용*/
+        * {
+            margin: 0px;
+        }
+        /* 태그 선택자(selector) : html내에 있는 같은 종류의 태그에 모두 적용 */
+        ul  {
+            background-color: rgb(241, 121, 121); 
+        }
+        /* 클래스 선택자 : 클래스(.)가 있는 태그에만 적용 */
+        .idc1 {
+            background-color: rgb(220, 250, 136);
+        }
+        /* 아이디 선택자 : id가 있는 태그에만 적용 */
+        #isid2 {
+            background-color: white; 
+        }
+        /* 복합 선택자 : 태그 여러개에 적용 */
+            /* 1. 중복되는 태그가 없을 때 (,) */
+        header {
+            background-color: rgb(235, 183, 165);
+            height: auto; 
+            width: 140px;
+        }
+            /* 2. 바로 하위 태그가 중복될 때 (>) */
+        nav > ul {
+            background-color: darkslateblue;
+            height: auto; 
+            width: 100px;
+        }
+            /* 3. 바로 하위가 아니라 하위의 하위 태그가 중복될 때 (공백) */
+        aside li {
+            background-color: darkgray;
+        }
+        /* 가상 선택자 (a태그, href없이) */
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        /* 마우스 커서 올리면 박스 표시 */
+        a:hover {
+            background-color: rgb(235, 183, 165);
+            color: darkslateblue;
+        }
+        /* 마음대로 적용해보기~ */
+        nav li {
+            list-style-type: none;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -10,7 +62,10 @@
     <!-- (div.dvc$>h1+ul>li.lic$)*반복횟수n : div에 클래스(.) dvc가 n개 있고 각각의 dvc클래스 안에 head, ul, li있다.  
                                              .는 class, $는 숫자, >는 하위항목-->
    <!-- (div.dvc$>ul>li.lid$*lid반복횟수a)*반복횟수n :  -->
-    <header>
+    
+   <!-- head에 스타일적용! -->
+   <!-- 인라인 스타일: header 안에 적용 ex) <header style = "background-color: rgb(226, 51, 78); color: rgb(255, 255, 255);"> -->
+   <header>
         최정인
     </header>
 
@@ -54,13 +109,15 @@
             </ul>
         </section>
     </main>
-    <aside>
-        <h1>참고사이트</h1>
-            <ul>
-                <li class="idc1"></li>
-                <li class="idc2"></li>
-            </ul>
-    </aside>
+    <section id ="isid5">
+        <aside>
+            <h1>참고사이트</h1>
+                <ul>
+                    <li class="idc1"></li>
+                    <li class="idc1"></li>
+                </ul>
+        </aside>
+    </section>
     <footer>
         부산대학교 K-디지털
     </footer>
