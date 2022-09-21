@@ -8,15 +8,15 @@
 
         /* 전체 선택자 : html 요소 전체에 적용*/
         * {
-            margin: 0px;
+            margin: 10px 5px
         }
         /* 태그 선택자(selector) : html내에 있는 같은 종류의 태그에 모두 적용 */
         ul  {
             background-color: rgb(241, 121, 121); 
         }
         /* 클래스 선택자 : 클래스(.)가 있는 태그에만 적용 */
-        .idc1 {
-            background-color: rgb(220, 250, 136);
+        /* .idc3 {
+            background-color: rgb(220, 250, 136); */
         }
         /* 아이디 선택자 : id가 있는 태그에만 적용 */
         #isid2 {
@@ -25,20 +25,30 @@
         /* 복합 선택자 : 태그 여러개에 적용 */
             /* 1. 중복되는 태그가 없을 때 (,) */
         header {
-            background-color: rgb(235, 183, 165);
-            height: auto; 
-            width: 140px;
+            background-color: rgb(250, 60, 117);
+            /*margin: 20px; margin: 해당 블록의 겉테두리 */
+            margin: 20px 50px ;
+            /* margin 4개 사용시: 위,오른쪽,아래,왼쪽 순으로 설정
+               margin 2개 사용시: (위,아래) (오른쪽,왼쪽) 묶어서 설정 */
+            padding: 50px;
+            width: 500px;
+            border: 10px;
+            border-color: rgb(247, 140, 176);
+            border-left-style: ridge;
+            
         }
             /* 2. 바로 하위 태그가 중복될 때 (>) */
         nav > ul {
-            background-color: darkslateblue;
-            height: auto; 
-            width: 100px;
+            background-color: rgb(144, 101, 224);
+        }
+        main ul {
+            list-style: none;
         }
             /* 3. 바로 하위가 아니라 하위의 하위 태그가 중복될 때 (공백) */
-        aside li {
+        aside > ul {
             background-color: darkgray;
         }
+        
         /* 가상 선택자 (a태그, href없이) */
         a {
             text-decoration: none;
@@ -46,14 +56,28 @@
         }
         /* 마우스 커서 올리면 박스 표시 */
         a:hover {
-            background-color: rgb(235, 183, 165);
+            background-color: rgb(247, 140, 176);
             color: darkslateblue;
         }
         /* 마음대로 적용해보기~ */
         nav li {
             list-style-type: none;
         }
-
+        span {
+            background-color: white;
+            width: 30px;
+            height: 20px;
+        /* html영역은 전부 박스 형태다.
+            박스는 블럭, 인라인 요소로 나뉘는데
+            블럭은 요소 설정시 문단 자동으로 바뀜 > 박스 가로, 세로 길이 제어 가능
+            인라인은 요소 설정시 문단 바뀌지 않음 > 박스 크기 제어 불가능*/
+        }
+        footer {
+            background-color: white;
+            padding: 20px;
+            border: 0p5px solid blue; 
+            /* 한줄에 굵기, 스타일, 색상 설정 할 수 있다. */
+        }
     </style>
 </head>
 
@@ -66,7 +90,7 @@
    <!-- head에 스타일적용! -->
    <!-- 인라인 스타일: header 안에 적용 ex) <header style = "background-color: rgb(226, 51, 78); color: rgb(255, 255, 255);"> -->
    <header>
-        최정인
+        <span>최정인</span>
     </header>
 
     <nav>
@@ -113,8 +137,8 @@
         <aside>
             <h1>참고사이트</h1>
                 <ul>
-                    <li class="idc1"></li>
-                    <li class="idc1"></li>
+                    <li class="idc3"></li>
+                    <li class="idc3"></li>
                 </ul>
         </aside>
     </section>
