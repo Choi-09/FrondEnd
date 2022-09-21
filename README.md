@@ -24,8 +24,12 @@
 ### 태그(tag)
 + 표준: https://html.spec.whatwg.org/multipage/
 + 참고사이트
+    <!-- HTML 튜토리얼 -->
     + https://www.w3schools.com/
     + https://developer.mozilla.org/ko/docs/Web/HTML
     + https://www.advancedwebranking.com/seo/html-study/ 
+    <!-- 반복적인 구문 치트키 -->
+    + https://emmet.io/ 
+
 
 

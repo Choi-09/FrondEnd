@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML 시멘틱 태그</title>
+</head>
+<body>
+    <!-- div 반복적 시킬 때 div#id$*반복횟수n :id를 n번 반복-->
+    <!-- (div.dvc$>h1+ul>li.lic$)*반복횟수n : div에 클래스(.) dvc가 n개 있고 각각의 dvc클래스 안에 head, ul, li있다.  
+                                             .는 class, $는 숫자, >는 하위항목-->
+   <!-- (div.dvc$>ul>li.lid$*lid반복횟수a)*반복횟수n :  -->
+    <header>
+        최정인
+    </header>
+
+    <nav>
+        <ul>
+            <!-- 한페이지 내에서 이동(책갈피 기능): <a>태그 사용: a태그는 반드시 href와 같이 사용한다. -->
+            <li><a href = "#isid1">개인정보</a></li>
+            <li><a href = "#isid2">학력사항</a></li>
+            <li><a href = "isid3">자격사항</a></li>
+            <li><a href = "isid4"> 사용가능언어</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="isid1">
+            <h1>개인정보</h1>
+            <ul>
+                <li class="idc1"></li>
+                <li class="idc2"></li>
+            </ul>
+        </section>
+        <section id="isid2">
+            <h1>학력사항</h1>
+            <ul>
+                <li class="idc1"></li>
+                <li class="idc2"></li>
+            </ul>
+        </section>
+        <section id="isid3">
+            <h1>자격사항</h1>
+            <ul>
+                <li class="idc1"></li>
+                <li class="idc2"></li>
+            </ul>
+        </section>
+        <section id="isid4">
+            <h1>사용가능언어</h1>
+            <ul>
+                <li class="idc1"></li>
+                <li class="idc2"></li>
+            </ul>
+        </section>
+    </main>
+    <aside>
+        <h1>참고사이트</h1>
+            <ul>
+                <li class="idc1"></li>
+                <li class="idc2"></li>
+            </ul>
+    </aside>
+    <footer>
+        부산대학교 K-디지털
+    </footer>
+</body>
+</html>
