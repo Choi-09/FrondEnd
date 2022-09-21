@@ -16,12 +16,25 @@
 + git push --set-upstream origin master (처음연결시)
 + git push origin master (이후 커밋할 때)
 
-### VS환경설정
+### VS-git 연동
 + VScode 설치
 + git 설치
 + github 접속 후 레퍼지토리 생성
++ VScode github로 로그인
++ 커밋: 변경사항(+), 메세지 입력, 커밋, 동기화
 
-### 태그(tag)
+### VScode 단축키
++ ! + tap : doctype html 기본 틀 자동생성
++ alt + shift + f : 입력 라인 자동 정렬
++ alt + 커서 : 다중커서
++ alt + 방향키 : 해당 커서가 있는 행 이동
++ alt + shift + 방향키 : 해당 커서가 있는 행 복사
++ ctrl + shift + k : 해당 커서가 있는 행 삭제
++ shift + alt + a : 여러 줄 주석
++ ctrl + / : 한 줄 주석 
+
+
+### HTML 자료
 + 표준: https://html.spec.whatwg.org/multipage/
 + 참고사이트
     <!-- HTML 튜토리얼 -->
@@ -30,6 +43,7 @@
     + https://www.advancedwebranking.com/seo/html-study/ 
     <!-- 반복적인 구문 치트키 -->
     + https://emmet.io/ 
-
+    <!-- 포토샵 기능 사이트 -->
+    + https://www.photopea.com/
 
 
