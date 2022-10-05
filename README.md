@@ -32,21 +32,33 @@
 + ctrl + shift + k : 해당 커서가 있는 행 삭제
 + shift + alt + a : 여러 줄 주석
 + ctrl + / : 한 줄 주석 
+    
+## 프론트엔드 참고사이트
 
+### HTML 사이트
++ 표준 : https://html.spec.whatwg.org/multipage/
++ HTML 튜토리얼: 
+    ++ https://www.w3schools.com/
+    ++ https://developer.mozilla.org/ko/docs/Web/HTML
+    ++ https://www.advancedwebranking.com/seo/html-study/
++ 반복적인 구문 치트키: https://emmet.io/
 
-### HTML 자료
-+ 표준: https://html.spec.whatwg.org/multipage/
-+ 참고사이트
-    <!-- HTML 튜토리얼 -->
-    + https://www.w3schools.com/
-    + https://developer.mozilla.org/ko/docs/Web/HTML
-    + https://www.advancedwebranking.com/seo/html-study/ 
-    <!-- 반복적인 구문 치트키 -->
-    + https://emmet.io/ 
-    <!-- 포토샵 기능 사이트 -->
-    + https://www.photopea.com/
-    <!-- 컬러참고사이트 -->
-    + https://colorhunt.co/
+### CSS 관련 참고
++ 포토샵 기능 사이트 : https://www.photopea.com/
++ 컬러참고사이트 : 
+    ++ https://mycolor.space/
+    ++ https://colorhunt.co/
+    ++ https://fontawesome.com/
+    ++ https://fonts.google.com/
+    ++ https://cssgradient.io/
+    ++ https://www.shapedivider.app/
+    ++ https://haikei.app/
+    ++ https://coolbackgrounds.io/
+    ++ https://dribbble.com/
+    ++ https://www.sliderrevolution.com/resources/css-forms/
+    ++ https://yesviz.com/devices.php
+    ++ https://m3.material.io/
+    ++ https://m3.material.io/theme-builder
 
 
 
