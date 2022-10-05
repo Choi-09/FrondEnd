@@ -46,13 +46,13 @@
 ### CSS 관련 참고
 + 포토샵 기능 사이트 : https://www.photopea.com/
 + 컬러참고사이트 : 
-    ++ https://mycolor.space/
-    ++ https://colorhunt.co/
-    ++ https://fontawesome.com/
-    ++ https://fonts.google.com/
-    ++ https://cssgradient.io/
-    ++ https://www.shapedivider.app/
-    ++ https://haikei.app/
+    + https://mycolor.space/
+    + https://colorhunt.co/
+    + https://fontawesome.com/
+    + https://fonts.google.com/
+    + https://cssgradient.io/
+    + https://www.shapedivider.app/
+    + https://haikei.app/
     ++ https://coolbackgrounds.io/
     ++ https://dribbble.com/
     ++ https://www.sliderrevolution.com/resources/css-forms/
