@@ -38,9 +38,9 @@
 ### HTML 사이트
 + 표준 : https://html.spec.whatwg.org/multipage/
 + HTML 튜토리얼: 
-    ++ https://www.w3schools.com/
-    ++ https://developer.mozilla.org/ko/docs/Web/HTML
-    ++ https://www.advancedwebranking.com/seo/html-study/
+    + https://www.w3schools.com/
+    + https://developer.mozilla.org/ko/docs/Web/HTML
+    + https://www.advancedwebranking.com/seo/html-study/
 + 반복적인 구문 치트키: https://emmet.io/
 
 ### CSS 관련 참고
@@ -53,12 +53,12 @@
     + https://cssgradient.io/
     + https://www.shapedivider.app/
     + https://haikei.app/
-    ++ https://coolbackgrounds.io/
-    ++ https://dribbble.com/
-    ++ https://www.sliderrevolution.com/resources/css-forms/
-    ++ https://yesviz.com/devices.php
-    ++ https://m3.material.io/
-    ++ https://m3.material.io/theme-builder
+    + https://coolbackgrounds.io/
+    + https://dribbble.com/
+    + https://www.sliderrevolution.com/resources/css-forms/
+    + https://yesviz.com/devices.php
+    + https://m3.material.io/
+    + https://m3.material.io/theme-builder
 
 
 
