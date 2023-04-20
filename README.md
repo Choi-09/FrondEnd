@@ -2,6 +2,7 @@
 ## 2022. 09. 19 1차
 ### git 설정
 + git 명령 정리
++ git 설치 https://git-scm.com/download/win
 + git config --global user.name ""
 + git config --global user.email ""
 + git Repository 생성 (온라인 저장소 생성)
